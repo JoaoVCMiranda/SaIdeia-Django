@@ -77,6 +77,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'mysql': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'soailehx_online',
+        'USER': 'soailehx_ideia',
+        'PASSWORD': 'Sóaideia',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
