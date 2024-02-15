@@ -8,5 +8,6 @@ class User(models.Model):
     descr = models.CharField(max_length=150)
     email = models.EmailField()
     since = models.DateTimeField(auto_now_add=True)
+    profile_pic = models.ImageField(upload_to='fotos_perfil/', blank=True)
     def __str__(self):
         return f'{self.username} : ({self.id})'

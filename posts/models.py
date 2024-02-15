@@ -8,7 +8,7 @@ class Post(models.Model):
     user = models.ForeignKey('users.User', on_delete=models.SET_NULL, null=True)
     content = models.TextField()
     comment_counter = models.IntegerField()
-    #profile_pic = models.ImageField()
+    media = models.ImageField(upload_to='media', blank=True)
     class Meta:
         ordering = ['-date']
 
