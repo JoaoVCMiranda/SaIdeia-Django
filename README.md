@@ -1,10 +1,8 @@
 # SaIdeia-Django
-
+Esse é o modelo de backend que está sendo usado para desenvolver uma ideia.
 ---
 ## Iniciar
-Para iniciar o server em desenvolvimento `python manage.py runserver`
-## Instalação
-`python manage.py migrate --database=mysql`
+    Para iniciar o server em desenvolvimento `python manage.py runserver`
 ---
 ## To-do
 - [X] Implementar a ROOT\_FOLDER para as ProfPic
